@@ -1,7 +1,7 @@
 /* Metsai Aleksandros 7723
  * metsalex@ece.auth.gr
  * 
- * Multiple cells per thread
+ *  Game of life using CUDA. Multiple cells per thread
  */
 
 #include <stdio.h>
