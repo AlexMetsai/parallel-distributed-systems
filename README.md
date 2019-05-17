@@ -1,1 +1,24 @@
 # parallel-distributed-systems
+
+******************************
+      CUDA Game of Life 
+******************************
+  Compile: nvcc filename.cu
+  Run the a.out file and the number of generations and table size will be asked as input.
+  A table file "tableSIZExSIZE.bin" file must exist within the same directory(even with zeroes).
+  
+
+******************************
+      MPI Bitonic Sort
+******************************
+  Compile: mpicc filename.c -o filename
+  Run as "mpirun -np p filename q" where p are the tasks and n=2^q is the problem size(power of two).
+
+
+******************************
+      Page Rank pthreads
+******************************
+  Compile: gcc filename.c -lm -lpthread -O3
+  Run the a.out file. The number of nodes and the number of threads will be asked as input.
+  A "data.txt" file must exist within the same directory, containing the node connections. 
+  Such files can found at http://snap.stanford.edu/data/ .
